@@ -30,6 +30,21 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Short tag template engine
+gem 'haml-rails'
+
+# Boostrap scaffold generator
+gem 'bootstrap-generators', '~> 3.3.4'
+
+# Boostrap form_for helper
+gem 'bootstrap_form'
+
+# Pretty url
+gem 'friendly_id', '~> 5.1'
+
+# User Authentication
+gem 'devise', '~> 4.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
