@@ -1,13 +1,23 @@
 # Rails 5 Blog v1.0
 
-### Installation
+## Installation:
+```
+git clone https://github.com/ravuthz/rails_5_blog.git blog_name
 
-#### Install Haml (template engine)
+cd blog_name
+
+bundle install
+```
+
+
+#### Installed Plugins:
+
+##### Install Haml (template engine)
 ```
 gem 'haml-rails'
 ```
 
-#### Install Boostrap-generator (scaffold generator template with bootstrap)
+##### Install Boostrap Generator (scaffold generator template with bootstrap)
 ```
 gem 'bootstrap-generators', '~> 3.3.4'
 
@@ -22,7 +32,7 @@ rails generate bootstrap:install -e=haml -se=scss
  *= require bootstrap-generators.scss
 ```
 
-#### Install Boostrap form_for helper
+##### Install Boostrap Form helper (bootstrap_form_for)
 ```
 gem 'bootstrap_form'
 ```
@@ -33,7 +43,7 @@ gem 'bootstrap_form'
 ```
 
 
-### Install Friendly id
+##### Install Friendly id (Pretty url with slug)
 ```
 gem 'friendly_id', '~> 5.1'
 
@@ -41,7 +51,7 @@ rails generate friendly_id
 rails db:migrate
 ```
 
-### Install Devise
+##### Install Devise (User authentication)
 ```
 gem 'devise', '~> 4.2'
 
@@ -51,10 +61,8 @@ rails generate devise User
 rails db:migrate
 ```
 
-
-
-
-https://github.com/decioferreira/bootstrap-generators
-https://github.com/bootstrap-ruby/rails-bootstrap-forms
-https://github.com/norman/friendly_id
-https://github.com/plataformatec/devise
+#### *References*:
+* https://github.com/decioferreira/bootstrap-generators
+* https://github.com/bootstrap-ruby/rails-bootstrap-forms
+* https://github.com/norman/friendly_id
+* https://github.com/plataformatec/devise
